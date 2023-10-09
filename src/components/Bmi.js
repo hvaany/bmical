@@ -19,10 +19,10 @@ function Bmi(){
    return (
        <>
        <h3>BMI Calculator</h3>
-       <input
+       Weight: <input
            type="text"> 
            ref=(w_inputRef) </input> kg.<br/>
-       <input
+       Height: <input
            type="text"> 
            ref=(h_inputRef) </input> cm.<br/>
        <button onClick={()=>calBmi()}>Calculate!</button>
